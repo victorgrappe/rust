@@ -7,7 +7,37 @@ The Rust Programming Language tutorial
 ```bash
 rustup docs --book
 
-NEW="01.3.HelloCargo"; mkdir "./${NEW}"; cp -R "NN.N.Name/" "${NEW}"
+NEW="02.GuessingGame"; mkdir "./${NEW}"; cp -R "NN.N.Name/" "${NEW}"
+
+git reset; git add .; git status
+
+
+
+```
+
+# Rustc
+
+```bash
+rustc main.rs
+./main
+```
+
+# Cargo
+
+```bash
+cargo --version
+
+cargo new hello_cargo
+cd hello_cargo
+
+cargo check
+
+cargo build
+cargo build --release
+
+cargo run
+
+cargo doc --open
 ```
 
 # Installation
