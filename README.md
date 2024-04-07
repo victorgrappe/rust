@@ -6,6 +6,8 @@ The Rust Programming Language tutorial
 
 ```bash
 rustup docs --book
+
+NEW="01.3.HelloCargo"; mkdir "./${NEW}"; cp -R "NN.N.Name/" "${NEW}"
 ```
 
 # Installation
